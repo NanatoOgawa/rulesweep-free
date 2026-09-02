@@ -1,0 +1,20 @@
+{
+  "name": "rulesweep-free",
+  "version": "0.1.0",
+  "description": "CLAUDE.md 継続スリム化キット（無料版）— 毎ターンのトークンコストと重複・矛盾・壊れ参照の件数を計測する診断CLI。",
+  "type": "module",
+  "bin": {
+    "rulesweep": "bin/rulesweep.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true
+}
