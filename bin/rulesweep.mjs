@@ -53,6 +53,7 @@ const HELP = `rulesweep（無料版）— CLAUDE.md 継続スリム化キット�
 出力: ファイル別/合計トークン推定・重複行の件数・壊れた参照の件数・矛盾候補の件数。
 どのセクションを skill/subagent に退避すべきか・具体的な直し方・修正後の削減幅の
 記録・振り分けワークシート・スタブ生成・BYOKリライトは有料版でご利用いただけます。
+有料版: https://ogawana.gumroad.com/l/rulesweep
 `;
 
 async function main() {
