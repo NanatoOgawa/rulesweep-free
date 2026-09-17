@@ -110,6 +110,7 @@ export function renderConsoleFree(audit) {
   lines.push("");
   lines.push("  どのセクションを skill/subagent に退避すべきか・具体的な直し方・");
   lines.push("  修正後の削減幅の記録は有料版（sort / stub / rewrite / remeasure）で。");
+  lines.push("  有料版: https://ogawana.gumroad.com/l/rulesweep");
   lines.push("");
   return lines.join("\n");
 }
