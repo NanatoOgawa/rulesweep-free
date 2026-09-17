@@ -1,7 +1,26 @@
 {
-  "name": "rulesweep-free",
-  "version": "0.1.0",
-  "description": "CLAUDE.md 継続スリム化キット（無料版）— 毎ターンのトークンコストと重複・矛盾・壊れ参照の件数を計測する診断CLI。",
+  "name": "rulesweep",
+  "version": "0.1.1",
+  "description": "CLAUDE.md audit CLI (free edition): measure the per-turn token cost of CLAUDE.md / .claude/rules, and count duplicate lines, contradictions and broken references. No API key required.",
+  "keywords": [
+    "claude-code",
+    "claude-md",
+    "context-window",
+    "token-optimization",
+    "cli",
+    "audit",
+    "agent-harness"
+  ],
+  "homepage": "https://github.com/NanatoOgawa/rulesweep-free#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanatoOgawa/rulesweep-free.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NanatoOgawa/rulesweep-free/issues"
+  },
+  "author": "nanami_773",
+  "license": "SEE LICENSE IN LICENSE",
   "type": "module",
   "bin": {
     "rulesweep": "bin/rulesweep.mjs"
@@ -14,7 +33,5 @@
     "src",
     "README.md",
     "LICENSE"
-  ],
-  "license": "SEE LICENSE IN LICENSE",
-  "private": true
+  ]
 }
