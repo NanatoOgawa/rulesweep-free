@@ -6,6 +6,14 @@
 
 ## 使い方
 
+インストール不要（npm）:
+
+```bash
+npx rulesweep audit --global --reload-factor 3
+```
+
+ソースから:
+
 ```bash
 git clone https://github.com/NanatoOgawa/rulesweep-free
 cd rulesweep-free
@@ -18,7 +26,7 @@ node bin/rulesweep.mjs audit --global --reload-factor 3
 - 壊れた参照リンクの件数（存在しないファイルを指す`` `path.md` ``や`[[wikilink]]`）
 - 矛盾候補の件数
 
-無料版はここまでです。「どのセクションを skill/subagent に退避すべきか」「実際にどう直すか」「修正後にどれだけ削減できたか」の一歩先は、有料版（$29・[GUMROADリンク：要設定]）の`sort` / `stub` / `remeasure`ループで扱います。
+無料版はここまでです。「どのセクションを skill/subagent に退避すべきか」「実際にどう直すか」「修正後にどれだけ削減できたか」の一歩先は、有料版（$29・https://ogawana.gumroad.com/l/rulesweep ）の`sort` / `stub` / `remeasure`ループで扱います。
 
 ### なぜ無料版はここで止めているのか
 
@@ -34,7 +42,7 @@ Node.js 18+。API キー不要。
 
 ### フル機能（有料版）が欲しい場合
 
-→ [GUMROADリンク：要設定]（Gumroad: rulesweep $29。振り分けワークシート・退避スタブ自動生成・BYOKリライト・before/after計測）
+→ https://ogawana.gumroad.com/l/rulesweep （Gumroad: rulesweep $29 買い切り。振り分けワークシート・退避スタブ自動生成・BYOKリライト・before/after計測）
 
 ### ライセンス
 
